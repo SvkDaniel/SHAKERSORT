@@ -53,5 +53,6 @@ int main()
     shekerSort(array,ARRAY_SIZE);
     print_array(array);
     system("pause");
+    free(array);
   return 0;
 }
